@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E7E0D8F8-8FE6-4E72-AC15-01BAFD52DD93}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ARM_System_Administrator</RootNamespace>
+    <AssemblyName>ARM System Administrator</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>опубликовать\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>redhat-system_settings_1320.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=12.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Word, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.8.4.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\ConnectorSQL.cs" />
+    <Compile Include="Classes\Exports.cs" />
+    <Compile Include="Classes\WordDocument.cs" />
+    <Compile Include="Classes\WordSelection.cs" />
+    <Compile Include="Forms\About.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\About.Designer.cs">
+      <DependentUpon>About.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\AddRecordFromFile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AddRecordFromFile.Designer.cs">
+      <DependentUpon>AddRecordFromFile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Autorizatsia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Autorizatsia.Designer.cs">
+      <DependentUpon>Autorizatsia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\MenuPrepod.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\MenuPrepod.Designer.cs">
+      <DependentUpon>MenuPrepod.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Password.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Password.Designer.cs">
+      <DependentUpon>Password.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PO.Designer.cs">
+      <DependentUpon>PO.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Prepods.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Prepods.Designer.cs">
+      <DependentUpon>Prepods.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Query.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Query.Designer.cs">
+      <DependentUpon>Query.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Settings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Settings.Designer.cs">
+      <DependentUpon>Settings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Sotrudnik.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Sotrudnik.Designer.cs">
+      <DependentUpon>Sotrudnik.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Splashscreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Splashscreen.Designer.cs">
+      <DependentUpon>Splashscreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\UchetOborudovania.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\UchetOborudovania.Designer.cs">
+      <DependentUpon>UchetOborudovania.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\UchetZayavok.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\UchetZayavok.Designer.cs">
+      <DependentUpon>UchetZayavok.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\UchetZayavokPrepod.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\UchetZayavokPrepod.Designer.cs">
+      <DependentUpon>UchetZayavokPrepod.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Users.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Users.Designer.cs">
+      <DependentUpon>Users.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Zakaz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Zakaz.Designer.cs">
+      <DependentUpon>Zakaz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Zayavka.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Zayavka.Designer.cs">
+      <DependentUpon>Zayavka.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\About.resx">
+      <DependentUpon>About.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\AddRecordFromFile.resx">
+      <DependentUpon>AddRecordFromFile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Autorizatsia.resx">
+      <DependentUpon>Autorizatsia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\MenuPrepod.resx">
+      <DependentUpon>MenuPrepod.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Password.resx">
+      <DependentUpon>Password.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PO.resx">
+      <DependentUpon>PO.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Prepods.resx">
+      <DependentUpon>Prepods.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Query.resx">
+      <DependentUpon>Query.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Settings.resx">
+      <DependentUpon>Settings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Sotrudnik.resx">
+      <DependentUpon>Sotrudnik.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Splashscreen.resx">
+      <DependentUpon>Splashscreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\UchetOborudovania.resx">
+      <DependentUpon>UchetOborudovania.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\UchetZayavok.resx">
+      <DependentUpon>UchetZayavok.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\UchetZayavokPrepod.resx">
+      <DependentUpon>UchetZayavokPrepod.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Users.resx">
+      <DependentUpon>Users.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Zakaz.resx">
+      <DependentUpon>Zakaz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Zayavka.resx">
+      <DependentUpon>Zayavka.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="ClassDiagram.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Reports\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="redhat-system_settings_1320.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 и x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>Клиентский профиль .NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

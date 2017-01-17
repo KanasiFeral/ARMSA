@@ -1,0 +1,280 @@
+create database arm_sis_admin;
+use arm_sis_admin;
+create table Users
+	(
+		ID INT  NOT NULL auto_increment primary key,
+		Name_user varchar(50) NOT NULL,
+		Pass_user varchar(50) NOT NULL
+	)
+insert into Users values(1,'admin','123');
+insert into Users values(2,'user','456');
+	
+create table Prepod
+	(
+		ID INT  NOT NULL auto_increment primary key,
+		Name_prep varchar(50) NOT NULL,
+		Fam_prep varchar(50) NOT NULL,
+		Otch_prep varchar(50) NOT NULL,
+		Distsiplina varchar(50) NOT NULL
+	)
+insert into Prepod values(1,'Багласова','Татьяна','Георгевна','ПО');
+insert into Prepod values(2,'Якимович','Клавдия','Альгердовна', 'ПО');
+	
+create table Auditoria
+	( 
+		Nomer varchar(50) NOT NULL primary key,
+		Otvetstvenii varchar(50) NOT NULL
+	)
+insert into Auditoria values(427,'Багласова Татьяна Георгевна');
+insert into Auditoria values(425,'Якимович Клавдия Альгердовна');
+	
+create table Program_Obespech
+	(
+		ID INT  NOT NULL auto_increment primary key,
+		Tip_PO varchar(50) NOT NULL,
+		Nazvanie_PO varchar(50) NOT NULL,
+		Auditoria varchar(50) NOT NULL,
+		FOREIGN KEY(Auditoria) REFERENCES Auditoria(Nomer)
+		on delete cascade
+		on update cascade
+	)
+	
+create table Zayavka
+	(
+		ID INT  NOT NULL auto_increment primary key,
+		FIO_Prepod varchar(100) NOT NULL,
+		id_User int NOT NULL,
+		Type_Oborud  varchar(50) NOT NULL,
+		Auditoria varchar(50) NOT NULL,
+		Inv_nomer varchar(50) NOT NULL,
+		Tsel varchar(150) NOT NULL,
+		Data_zayavki varchar(50) NOT NULL,
+		Data_sdachi varchar(50) NOT NULL,
+		Status_zayavki varchar(50) NULL,
+		FOREIGN KEY(id_User) REFERENCES Users(ID),
+		FOREIGN KEY(Auditoria) REFERENCES Auditoria(Nomer)
+		on delete cascade
+		on update cascade
+	)
+
+create table Param_print
+	(
+		ID INT  NOT NULL auto_increment primary key,
+		Inv_nomer varchar(50) NOT NULL,
+		Nazvanie varchar(50) NOT NULL,
+		Max_raz varchar(50) NOT NULL,
+		Razmeri varchar(50) NOT NULL,
+		Pamyat varchar(50) NOT NULL,
+		Skor_pechati varchar(50) NOT NULL,
+		Max_format varchar(50) NOT NULL,
+		Kol_str varchar(50) NOT NULL,
+		Status varchar(50) NOT NULL,
+		Tsena varchar(50) NOT NULL,
+		Dop_Inf varchar(50) NULL,
+		Data_vvoda varchar(50) NOT NULL,
+		Data_spisania varchar(50) NOT NULL,
+		Auditoria varchar(50) NOT NULL,
+		FOREIGN KEY(Auditoria) REFERENCES Auditoria(Nomer)
+		on delete cascade
+		on update cascade
+	)
+
+create table Param_monitor
+	(
+		ID INT  NOT NULL auto_increment primary key,
+		Inv_nomer varchar(50) NOT NULL,
+		Razreshenie varchar(50) NOT NULL,
+		Diag varchar(50) NOT NULL,
+		Status varchar(50) NOT NULL,
+		Tsena varchar(50) NOT NULL,
+		Dop_Inf varchar(50) NULL,
+		Data_vvoda varchar(50) NOT NULL,
+		Data_spisania varchar(50) NOT NULL,
+		Auditoria varchar(50) NOT NULL,
+		FOREIGN KEY(Auditoria) REFERENCES Auditoria(Nomer)
+		on delete cascade
+		on update cascade
+	)
+	
+create table Param_mishek
+	(
+		ID INT  NOT NULL auto_increment primary key,
+		Inv_nomer varchar(50) NOT NULL,
+		Tip_podkl varchar(50) NOT NULL,
+		Status varchar(50) NOT NULL,
+		Tsena varchar(50) NOT NULL,
+		Dop_Inf varchar(50) NULL,
+		Data_vvoda varchar(50) NOT NULL,
+		Data_spisania varchar(50) NOT NULL,
+		Auditoria varchar(50) NOT NULL,
+		FOREIGN KEY(Auditoria) REFERENCES Auditoria(Nomer)
+		on delete cascade
+		on update cascade
+	)
+	
+create table Param_klava
+	(
+		ID INT  NOT NULL auto_increment primary key,
+		Inv_nomer varchar(50) NOT NULL,
+		Tip_podkl varchar(50) NOT NULL,
+		Kol_klavish varchar(50) NOT NULL,
+		Status varchar(50) NOT NULL,
+		Tsena varchar(50) NOT NULL,
+		Dop_Inf varchar(50) NULL,
+		Data_vvoda varchar(50) NOT NULL,
+		Data_spisania varchar(50) NOT NULL,
+		Auditoria varchar(50) NOT NULL,
+		FOREIGN KEY(Auditoria) REFERENCES Auditoria(Nomer)
+		on delete cascade
+		on update cascade
+	)
+	
+create table Param_sis_blokov
+	(
+		ID INT  NOT NULL auto_increment primary key,
+		Inv_nomer varchar(100) NOT NULL,
+		OS varchar(100) NOT NULL,
+		Privod varchar(100) NOT NULL,
+		Mat_plata varchar(100) NOT NULL,
+		Pzu varchar(100) NOT NULL,
+		Kulera varchar(100) NOT NULL,
+		Video varchar(100) NOT NULL,
+		HDD varchar(100) NOT NULL,
+		Protsessor varchar(100) NOT NULL,
+		Blok_pitania varchar(100) NOT NULL,
+		Status varchar(100) NOT NULL,
+		Tsena varchar(100) NOT NULL,
+		Dop_Inf varchar(100) NULL,
+		Data_vvoda varchar(100) NOT NULL,
+		Data_spisania varchar(100) NOT NULL,
+		Auditoria varchar(50) NOT NULL,
+		FOREIGN KEY(Auditoria) REFERENCES Auditoria(Nomer)
+		on delete cascade
+		on update cascade
+	)
+
+create table Param_nout
+	(
+		ID INT  NOT NULL auto_increment primary key,
+		Inv_nomer varchar(100) NOT NULL,
+		OS varchar(100) NOT NULL,
+		Nazvanie varchar(100) NOT NULL,
+		Protsessor varchar(100) NOT NULL,
+		Video varchar(100) NOT NULL,
+		Diag varchar(100) NOT NULL,
+		Pamyat varchar(100) NOT NULL,
+		HDD varchar(100) NOT NULL,
+		Status varchar(100) NOT NULL,
+		Tsena varchar(100) NOT NULL,
+		Dop_Inf varchar(100) NULL,
+		Data_vvoda varchar(100) NOT NULL,
+		Data_spisania varchar(100) NOT NULL,
+		Auditoria varchar(50) NOT NULL,
+		FOREIGN KEY(Auditoria) REFERENCES Auditoria(Nomer)
+		on delete cascade
+		on update cascade
+	)
+	
+create table Prochee
+	(
+		ID INT  NOT NULL auto_increment primary key,
+		Inv_nomer varchar(100) NOT NULL,
+		Nazvanie varchar(100) NOT NULL,
+		Status varchar(100) NOT NULL,
+		Tsena varchar(100) NOT NULL,
+		Dop_Inf varchar(100) NULL,
+		Data_vvoda varchar(100) NOT NULL,
+		Data_spisania varchar(100) NOT NULL,
+		Auditoria varchar(50) NOT NULL,
+		FOREIGN KEY(Auditoria) REFERENCES Auditoria(Nomer)
+		on delete cascade
+		on update cascade
+	)
+
+create table Sotrudnik
+	(
+		ID INT  NOT NULL auto_increment primary key,
+		Fam_sotr varchar(50) NOT NULL,
+		Name_sotr varchar(50) NOT NULL,			
+		Otch_sotr varchar(50) NOT NULL,
+		Dolgnost varchar(50) NOT NULL,
+		Auditoria varchar(50) NOT NULL,
+		FOREIGN KEY(Auditoria) REFERENCES Auditoria(Nomer)
+		on delete cascade
+		on update cascade
+	)		
+		
+create table Count_Zayavok
+		(
+			ID INT  NOT NULL auto_increment primary key,
+			count_zayavok  int not null
+		)
+		
+ALTER TABLE `Param_print` change `Auditoria` `Auditoria` varchar(50) NOT NULL;		
+	
+ALTER TABLE `Param_nout` ADD `Data_vvoda` VARCHAR(50) NOT NULL AFTER `Dop_Inf`
+	
+ALTER TABLE `Oborudovanie` DROP `Name_column`, DROP `Name_column2`
+ALTER TABLE `oborudovanie` ADD `Kolichestvo` VARCHAR(50) NOT NULL AFTER `Tip`
+
+ALTER TABLE 'Zayavka' ADD 'Nomer_auditorii' FOREIGN KEY (`Auditoria`)
+      REFERENCES `Auditoria` (`Nomer`) 
+
+ALTER TABLE 'Param_nout' ADD 'Tip_oboridovania' FOREIGN KEY (`Tip_oboridovania`)
+      REFERENCES `Oborudovanie` (`Tip`) 
+	  
+INSERT INTO `oborudovanie`(`Tip`, `Kolichestvo`, `Auditoria`) 
+VALUES ('Компьютер','15 штук', '425')
+
+INSERT INTO `tip_oboridovania`(`Id_tip_oborud`, `Tip`) VALUES (5, 'Монитор');
+
+DELETE FROM `test` WHERE `id_Test` = 1
+
+INSERT INTO `zayavka`(`id_Zayavka`, `id_Prepod`, `id_User`, `id_Oborud`, 
+`Nomer_auditorii`, `Inv_nomer`, `Tsel`, `Data_zayavki`, `Data_sdachi`, `Status_zayavki`) 
+VALUES (1,1,1,1,425,'111','Починка мышки','15.03.2015','20.03.2015','Ожидайте...')
+
+UPDATE `arm_sis_admin`.`prepod`
+SET `Fam_prep` = 'Селиверстова' WHERE `prepod`.`id_Prepod` = 1;
+
+INSERT INTO `sotrudnik`(`id_Sotrudnik`, `Fam_sotr`, `Name_sotr`, `Otch_sotr`, `Dolgnost`) 
+VALUES (1,'Нехай','Елена','Владимировна','Начальник вычислительного центра');
+
+INSERT INTO `prochee`(`Inv_nomer`, `Nazvanie`, `Status`, `Tsena`, `Tip_oboridovania`, 
+`Dop_Inf`, `Data_vvoda`, `Data_spisania`) 
+VALUES 
+('0001','USB-флешка Kingston 16 Gb','Используется','250 000 руб.','Прочее',
+'Взята в пользование Шмерко Т.И.','16.05.2015 г.','20.05.2016 г.')
+
+ALTER TABLE `param_sis_blokov` DROP FOREIGN KEY `param_sis_blokov_ibfk_1`;
+
+ALTER TABLE `zayavka` CHANGE `id_Prepod` `FIO_Prepod` VARCHAR(100) NOT NULL;
+
+ALTER TABLE `param_print` DROP FOREIGN KEY `param_print_ibfk_1`; 
+ALTER TABLE `param_print` ADD CONSTRAINT `param_print_ibfk_1` 
+FOREIGN KEY (`Auditoria`) REFERENCES `arm_sis_admin`.`auditoria`(`Nomer`) 
+ON DELETE NO ACTION ON UPDATE NO ACTION;
+
+
+ALTER TABLE `param_sis_blokov` ADD CONSTRAINT `50` 
+FOREIGN KEY (`Auditoria`) REFERENCES `arm_sis_admin`.`auditoria`(`Nomer`) 
+ON DELETE NO ACTION ON UPDATE NO ACTION;
+
+ALTER TABLE  `Sotrudnik` DROP FOREIGN KEY  `Sotrudnik_ibfk_1` ,
+ADD FOREIGN KEY (  `Auditoria` ) REFERENCES  `arm_sis_admin`.`Auditoria` (
+`Nomer`
+) ON DELETE CASCADE ON UPDATE CASCADE ;
+
+drop database ARM_sis_admin
+go
+drop table Users;
+drop table Prepod;
+drop table Auditoria;
+drop table Zayavka;
+drop table Param_print;
+drop table Param_monitor;
+drop table Param_mishek;
+drop table Param_klava;
+drop table Param_sis_blokov;
+drop table Param_nout;
+drop table Program_Obespech;

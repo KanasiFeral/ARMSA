@@ -1,0 +1,7 @@
+ReportProfile="Custom"
+ProfileFile=""
+ReportFormat="txt"
+RemoteReportFolder="F:\aida64extreme520\Reports"
+RemoteReportFileName="$HOSTNAME"
+InfoPage="Computer;Summary"
+InfoPage="Computer;Power Management"

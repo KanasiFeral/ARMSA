@@ -1,0 +1,33 @@
+C:\Users\Константин\AppData\Local\Temporary Projects\ARM System Administrator\bin\Debug\ARM System Administrator.exe.config
+C:\Users\Константин\Documents\Visual Studio 2012\Projects\C#\ARM System Administrator\ARM System Administrator\bin\Debug\ARM System Administrator.exe.config
+C:\Users\Константин\Documents\Visual Studio 2012\Projects\C#\ARM System Administrator\ARM System Administrator\bin\Debug\ARM System Administrator.exe
+C:\Users\Константин\Documents\Visual Studio 2012\Projects\C#\ARM System Administrator\ARM System Administrator\bin\Debug\ARM System Administrator.pdb
+C:\Users\Константин\Documents\Visual Studio 2012\Projects\C#\ARM System Administrator\ARM System Administrator\obj\Debug\ARM_System_Administrator.Main.resources
+C:\Users\Константин\Documents\Visual Studio 2012\Projects\C#\ARM System Administrator\ARM System Administrator\obj\Debug\ARM_System_Administrator.Properties.Resources.resources
+C:\Users\Константин\Documents\Visual Studio 2012\Projects\C#\ARM System Administrator\ARM System Administrator\obj\Debug\ARM System Administrator.csproj.GenerateResource.Cache
+C:\Users\Константин\Documents\Visual Studio 2012\Projects\C#\ARM System Administrator\ARM System Administrator\obj\Debug\ARM System Administrator.exe
+C:\Users\Константин\Documents\Visual Studio 2012\Projects\C#\ARM System Administrator\ARM System Administrator\obj\Debug\ARM System Administrator.pdb
+C:\Users\Константин\Documents\Visual Studio 2012\Projects\C#\ARM System Administrator\ARM System Administrator\obj\Debug\ARM_System_Administrator.Forms.Settings.resources
+C:\Users\Константин\Documents\Visual Studio 2012\Projects\C#\ARM System Administrator\ARM System Administrator\obj\Debug\ARM_System_Administrator.Forms.Splashscreen.resources
+C:\Users\Константин\Documents\Visual Studio 2012\Projects\C#\ARM System Administrator\ARM System Administrator\obj\Debug\ARM_System_Administrator.Forms.Autorizatsia.resources
+C:\Users\Константин\Documents\Visual Studio 2012\Projects\C#\ARM System Administrator\ARM System Administrator\obj\Debug\ARM_System_Administrator.Forms.About.resources
+C:\Users\Константин\Documents\Visual Studio 2012\Projects\C#\ARM System Administrator\ARM System Administrator\obj\Debug\ARM_System_Administrator.Forms.Users.resources
+C:\Users\Константин\Documents\Visual Studio 2012\Projects\C#\ARM System Administrator\ARM System Administrator\obj\Debug\ARM_System_Administrator.Forms.Prepods.resources
+C:\Users\Константин\Documents\Visual Studio 2012\Projects\C#\ARM System Administrator\ARM System Administrator\obj\Debug\ARM_System_Administrator.Forms.Zayavka.resources
+C:\Users\Константин\Documents\Visual Studio 2012\Projects\C#\ARM System Administrator\ARM System Administrator\obj\Debug\ARM_System_Administrator.Forms.UchetZayavok.resources
+C:\Users\Константин\Documents\Visual Studio 2012\Projects\C#\ARM System Administrator\ARM System Administrator\obj\Debug\ARM_System_Administrator.Forms.UchetZayavokPrepod.resources
+C:\Users\Константин\Documents\Visual Studio 2012\Projects\C#\ARM System Administrator\ARM System Administrator\obj\Debug\ARM_System_Administrator.Forms.PO.resources
+C:\Users\Константин\Documents\Visual Studio 2012\Projects\C#\ARM System Administrator\ARM System Administrator\obj\Debug\ARM_System_Administrator.Forms.Zakaz.resources
+C:\Users\Константин\Documents\Visual Studio 2012\Projects\C#\ARM System Administrator\ARM System Administrator\obj\Debug\ARM_System_Administrator.Forms.Query.resources
+C:\Users\Константин\Documents\Visual Studio 2012\Projects\C#\ARM System Administrator\ARM System Administrator\obj\Debug\ARM_System_Administrator.Forms.Sotrudnik.resources
+C:\Users\Константин\Documents\Visual Studio 2012\Projects\C#\ARM System Administrator\ARM System Administrator\obj\Debug\ARM_System_Administrator.Forms.AddRecordFromFile.resources
+F:\ДИПЛОМ\Проект\Проект новый\ARM System Administrator\ARM System Administrator\bin\Debug\ARM System Administrator.exe.config
+F:\ДИПЛОМ\Проект\Проект новый\ARM System Administrator\ARM System Administrator\obj\Debug\ARM System Administrator.exe
+F:\ДИПЛОМ\Проект\Проект новый\ARM System Administrator\ARM System Administrator\obj\Debug\ARM System Administrator.pdb
+F:\ДИПЛОМ\Проект\Временный проект\ARM System Administrator\ARM System Administrator\bin\Debug\ARM System Administrator.exe.config
+F:\ДИПЛОМ\Проект\Временный проект\ARM System Administrator\ARM System Administrator\obj\Debug\ARM System Administrator.exe
+F:\ДИПЛОМ\Проект\Временный проект\ARM System Administrator\ARM System Administrator\obj\Debug\ARM System Administrator.pdb
+C:\Users\Константин\Documents\Visual Studio 2012\Projects\C#\ARM System Administrator\ARM System Administrator\obj\Debug\ARM System Administrator.csprojResolveAssemblyReference.cache
+C:\Users\Константин\Documents\Visual Studio 2012\Projects\C#\ARM System Administrator\ARM System Administrator\obj\Debug\ARM_System_Administrator.Forms.UchetOborudovania.resources
+C:\Users\Константин\Documents\Visual Studio 2012\Projects\C#\ARM System Administrator\ARM System Administrator\obj\Debug\ARM_System_Administrator.Forms.Password.resources
+C:\Users\Константин\Documents\Visual Studio 2012\Projects\C#\ARM System Administrator\ARM System Administrator\obj\Debug\ARM_System_Administrator.Forms.MenuPrepod.resources

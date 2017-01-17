@@ -1,0 +1,56 @@
+C:\Users\Константин\Documents\Visual Studio 2012\Projects\C#\ARM System Administrator\ARM System Administrator\bin\Release\ARM System Administrator.exe.config
+C:\Users\Константин\Documents\Visual Studio 2012\Projects\C#\ARM System Administrator\ARM System Administrator\bin\Release\ARM System Administrator.exe
+C:\Users\Константин\Documents\Visual Studio 2012\Projects\C#\ARM System Administrator\ARM System Administrator\bin\Release\ARM System Administrator.pdb
+C:\Users\Константин\Documents\Visual Studio 2012\Projects\C#\ARM System Administrator\ARM System Administrator\obj\Release\ARM_System_Administrator.Forms.About.resources
+C:\Users\Константин\Documents\Visual Studio 2012\Projects\C#\ARM System Administrator\ARM System Administrator\obj\Release\ARM_System_Administrator.Forms.Autorizatsia.resources
+C:\Users\Константин\Documents\Visual Studio 2012\Projects\C#\ARM System Administrator\ARM System Administrator\obj\Release\ARM_System_Administrator.Main.resources
+C:\Users\Константин\Documents\Visual Studio 2012\Projects\C#\ARM System Administrator\ARM System Administrator\obj\Release\ARM_System_Administrator.Forms.PO.resources
+C:\Users\Константин\Documents\Visual Studio 2012\Projects\C#\ARM System Administrator\ARM System Administrator\obj\Release\ARM_System_Administrator.Forms.Prepods.resources
+C:\Users\Константин\Documents\Visual Studio 2012\Projects\C#\ARM System Administrator\ARM System Administrator\obj\Release\ARM_System_Administrator.Forms.Query.resources
+C:\Users\Константин\Documents\Visual Studio 2012\Projects\C#\ARM System Administrator\ARM System Administrator\obj\Release\ARM_System_Administrator.Forms.Settings.resources
+C:\Users\Константин\Documents\Visual Studio 2012\Projects\C#\ARM System Administrator\ARM System Administrator\obj\Release\ARM_System_Administrator.Forms.Sotrudnik.resources
+C:\Users\Константин\Documents\Visual Studio 2012\Projects\C#\ARM System Administrator\ARM System Administrator\obj\Release\ARM_System_Administrator.Forms.Splashscreen.resources
+C:\Users\Константин\Documents\Visual Studio 2012\Projects\C#\ARM System Administrator\ARM System Administrator\obj\Release\ARM_System_Administrator.Forms.UchetZayavok.resources
+C:\Users\Константин\Documents\Visual Studio 2012\Projects\C#\ARM System Administrator\ARM System Administrator\obj\Release\ARM_System_Administrator.Forms.UchetZayavokPrepod.resources
+C:\Users\Константин\Documents\Visual Studio 2012\Projects\C#\ARM System Administrator\ARM System Administrator\obj\Release\ARM_System_Administrator.Forms.Users.resources
+C:\Users\Константин\Documents\Visual Studio 2012\Projects\C#\ARM System Administrator\ARM System Administrator\obj\Release\ARM_System_Administrator.Forms.Zakaz.resources
+C:\Users\Константин\Documents\Visual Studio 2012\Projects\C#\ARM System Administrator\ARM System Administrator\obj\Release\ARM_System_Administrator.Forms.Zayavka.resources
+C:\Users\Константин\Documents\Visual Studio 2012\Projects\C#\ARM System Administrator\ARM System Administrator\obj\Release\ARM_System_Administrator.Properties.Resources.resources
+C:\Users\Константин\Documents\Visual Studio 2012\Projects\C#\ARM System Administrator\ARM System Administrator\obj\Release\ARM System Administrator.csproj.GenerateResource.Cache
+C:\Users\Константин\Documents\Visual Studio 2012\Projects\C#\ARM System Administrator\ARM System Administrator\obj\Release\ARM System Administrator.exe
+C:\Users\Константин\Documents\Visual Studio 2012\Projects\C#\ARM System Administrator\ARM System Administrator\obj\Release\ARM System Administrator.pdb
+C:\Users\Константин\Documents\Visual Studio 2012\Projects\C#\ARM System Administrator\ARM System Administrator\obj\Release\ARM_System_Administrator.Forms.AddRecordFromFile.resources
+C:\Users\Константин\Documents\Visual Studio 2012\Projects\C#\ARM System Administrator\ARM System Administrator\obj\Release\ARM_System_Administrator.Forms.UchetOborudovania.resources
+C:\Users\Константин\Documents\Visual Studio 2012\Projects\C#\ARM System Administrator\ARM System Administrator\obj\Release\ARM_System_Administrator.Forms.Password.resources
+F:\ДИПЛОМ\Проект\Проект конечный\Version MySQL 6.8.4\ARM System Administrator\ARM System Administrator\bin\Release\ARM System Administrator.exe.config
+F:\ДИПЛОМ\Проект\Проект конечный\Version MySQL 6.8.4\ARM System Administrator\ARM System Administrator\obj\Release\ARM System Administrator.exe
+F:\ДИПЛОМ\Проект\Проект конечный\Version MySQL 6.8.4\ARM System Administrator\ARM System Administrator\obj\Release\ARM System Administrator.pdb
+C:\Users\Константин\Documents\Visual Studio 2012\Projects\C#\ARM System Administrator\ARM System Administrator\obj\Release\ARM System Administrator.csprojResolveAssemblyReference.cache
+C:\Users\Константин\Documents\Visual Studio 2012\Projects\C#\ARM System Administrator\ARM System Administrator\obj\Release\ARM_System_Administrator.Forms.MenuPrepod.resources
+E:\ДИПЛОМ_Асиновский\ARM System Administrator\ARM System Administrator\bin\Release\ARM System Administrator.exe.config
+E:\ДИПЛОМ_Асиновский\ARM System Administrator\ARM System Administrator\obj\Release\ARM System Administrator.exe
+E:\ДИПЛОМ_Асиновский\ARM System Administrator\ARM System Administrator\obj\Release\ARM System Administrator.pdb
+E:\ДИПЛОМ_Асиновский\ARM System Administrator\ARM System Administrator\bin\Release\ARM System Administrator.exe
+E:\ДИПЛОМ_Асиновский\ARM System Administrator\ARM System Administrator\bin\Release\ARM System Administrator.pdb
+E:\ДИПЛОМ_Асиновский\ARM System Administrator\ARM System Administrator\obj\Release\ARM System Administrator.csprojResolveAssemblyReference.cache
+E:\ДИПЛОМ_Асиновский\ARM System Administrator\ARM System Administrator\obj\Release\ARM_System_Administrator.Forms.About.resources
+E:\ДИПЛОМ_Асиновский\ARM System Administrator\ARM System Administrator\obj\Release\ARM_System_Administrator.Forms.AddRecordFromFile.resources
+E:\ДИПЛОМ_Асиновский\ARM System Administrator\ARM System Administrator\obj\Release\ARM_System_Administrator.Forms.Autorizatsia.resources
+E:\ДИПЛОМ_Асиновский\ARM System Administrator\ARM System Administrator\obj\Release\ARM_System_Administrator.Main.resources
+E:\ДИПЛОМ_Асиновский\ARM System Administrator\ARM System Administrator\obj\Release\ARM_System_Administrator.Forms.MenuPrepod.resources
+E:\ДИПЛОМ_Асиновский\ARM System Administrator\ARM System Administrator\obj\Release\ARM_System_Administrator.Forms.Password.resources
+E:\ДИПЛОМ_Асиновский\ARM System Administrator\ARM System Administrator\obj\Release\ARM_System_Administrator.Forms.PO.resources
+E:\ДИПЛОМ_Асиновский\ARM System Administrator\ARM System Administrator\obj\Release\ARM_System_Administrator.Forms.Prepods.resources
+E:\ДИПЛОМ_Асиновский\ARM System Administrator\ARM System Administrator\obj\Release\ARM_System_Administrator.Forms.Query.resources
+E:\ДИПЛОМ_Асиновский\ARM System Administrator\ARM System Administrator\obj\Release\ARM_System_Administrator.Forms.Settings.resources
+E:\ДИПЛОМ_Асиновский\ARM System Administrator\ARM System Administrator\obj\Release\ARM_System_Administrator.Forms.Sotrudnik.resources
+E:\ДИПЛОМ_Асиновский\ARM System Administrator\ARM System Administrator\obj\Release\ARM_System_Administrator.Forms.Splashscreen.resources
+E:\ДИПЛОМ_Асиновский\ARM System Administrator\ARM System Administrator\obj\Release\ARM_System_Administrator.Forms.UchetOborudovania.resources
+E:\ДИПЛОМ_Асиновский\ARM System Administrator\ARM System Administrator\obj\Release\ARM_System_Administrator.Forms.UchetZayavok.resources
+E:\ДИПЛОМ_Асиновский\ARM System Administrator\ARM System Administrator\obj\Release\ARM_System_Administrator.Forms.UchetZayavokPrepod.resources
+E:\ДИПЛОМ_Асиновский\ARM System Administrator\ARM System Administrator\obj\Release\ARM_System_Administrator.Forms.Users.resources
+E:\ДИПЛОМ_Асиновский\ARM System Administrator\ARM System Administrator\obj\Release\ARM_System_Administrator.Forms.Zakaz.resources
+E:\ДИПЛОМ_Асиновский\ARM System Administrator\ARM System Administrator\obj\Release\ARM_System_Administrator.Forms.Zayavka.resources
+E:\ДИПЛОМ_Асиновский\ARM System Administrator\ARM System Administrator\obj\Release\ARM_System_Administrator.Properties.Resources.resources
+E:\ДИПЛОМ_Асиновский\ARM System Administrator\ARM System Administrator\obj\Release\ARM System Administrator.csproj.GenerateResource.Cache
+E:\ДИПЛОМ_Асиновский\ARM System Administrator\ARM System Administrator\bin\Release\MySql.Data.dll
